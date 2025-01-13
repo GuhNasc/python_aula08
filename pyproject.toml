@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-aula08"
+version = "0.1.0"
+description = "Aula 08"
+authors = ["Gustavo Paulino <Guh.Naasc@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+loguru = "^0.7.3"
+sentry-sdk = "^2.19.2"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
